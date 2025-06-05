@@ -1,7 +1,7 @@
 ---
 title: "Clook"
 author: "crkalapat"
-description: ""
+description: "A visual time tracker"
 created_at: "2025-06-04"
 ---
 

@@ -1,2 +1,3 @@
-# clock
-Physical clock to stylishly manage time
+# Clook
+
+A visual, hardware-focused time tracker
