@@ -5,7 +5,7 @@ description: "A visual time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 6.5h**
+**Total time spent on project: 9.5h**
 
 ## June 4th: Start!
 
@@ -49,6 +49,12 @@ Last thing - I also came up with a better looking UI that will be a decal in CAD
 
 ![Clook Rough CAD](assets/early_cad.png)
 
+(I kept working after writing that entry)
+
+Was too tired to finish that journal entry for Jun. 11th, but I worked a little bit more after the CAD session on trying to find a footprint for the LCD screen. It required a Hirose FH33-12S-0.5SH connector, but I could not find the footprint on the Hirose website, on KiCad, and even on Mouser. It wasn't until I went to DigiKey under some tab on the product page that I found it.
+
+Hopefully that actually works, if not I might be screwed.
+
 **Total time spent: 3h**
 
 ## June 12th: Schematic Start
@@ -70,3 +76,5 @@ Going off of that last bullet point, I have also tentatively decided to use the 
 Overall productive day.
 
 ![Rough schematic](assets/schem1.png)
+
+**Total time spent: 3h**
