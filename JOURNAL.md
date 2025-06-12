@@ -50,3 +50,23 @@ Last thing - I also came up with a better looking UI that will be a decal in CAD
 ![Clook Rough CAD](assets/early_cad.png)
 
 **Total time spent: 3h**
+
+## June 12th: Schematic Start
+
+Woke up this morning to an email from Mouser. My CAD request for the LCD screen that I made earlier had gone through, so now the 30 minutes that I spent yesterday on the LCD screen CAD, trying to find the right dimensions from the datasheet, is (basically) irrelevant now. You can see how close I did get though in the picture below:
+
+![comparison](assets/comparison.png)
+
+Also started working on my schematic for the project (see below). This required *a lot* of research. To show how much, here's all the things that I learned about today:
+
+- SPI vs I2C communication for LCD (and which one my screen used)
+- Voltage regulators (linear vs switching)
+- USB C specifications and standard
+- Bluetooth vs BLE
+- nRF52840 chip (which has BLE)
+
+Going off of that last bullet point, I have also tentatively decided to use the Seeed Studio XIAO nRF52840 to run the whole project. Still researching about voltage regulators and how they work (trying to learn if I should go fixed or adjustable).
+
+Overall productive day.
+
+![Rough schematic](assets/schem1.png)
