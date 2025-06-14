@@ -5,7 +5,7 @@ description: "A visual time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 9.5h**
+**Total time spent on project: 11h**
 
 ## June 4th: Start!
 
@@ -45,7 +45,7 @@ After scouring the Internet, and modifying my CAD design, I decided to use this 
 
 Another thing that I researched today was including an ambient light sensor to figure out if the display needs to be on fully or if it can be dimmed a lot. My plan right now is to include it somewhere on the front, but we shall see if that is possible once I begin making the PCB.
 
-Last thing - I also came up with a better looking UI that will be a decal in CAD for the LCD. You can see it on the rough CAD assembly I made today below.
+Last thing - I also came up with a better looking UI that will be a decal in CAD for the LCD in Figma. You can see it on the rough CAD assembly I made today below.
 
 ![Clook Rough CAD](assets/early_cad.png)
 
@@ -78,3 +78,17 @@ Overall productive day.
 ![Rough schematic](assets/schem1.png)
 
 **Total time spent: 3h**
+
+## June 13th: Decoupling Capacitors
+
+Shorter day today, primarily because I finished up all the loose ends from voltage regulators that I dove into yesterday. Did some poking around online to learn about decoupling or bypass capacitors, and I realized that I probably should have some in my schematic (so I added them). All of the voltages for the LCD screen in the schematic should (fingers crossed) be good now.
+
+Additionally, I also started to do some more research on the XIAO nRF52840 and its capabilities, and I think I might have to pivot away from it due to it supporting only one SPI interface. Its beefier brother, the XIAO nRF52840 Sense Plus, is looking like a better option now because of the 2 SPI interfaces that it provides.
+
+The reason why I think I want to provide another SPI interface is oriented around what I want this device to do. After thinking for a week, I've decided to go all in on the idea of "a stopwatch that remembers". So sometime soon I'm going to try to add a MicroSD card slot so there is a way to "remember" what was tracked and when.
+
+Here's what the schematic looked like after today's work:
+
+![Schematic v0.2](assets/schem2.png)
+
+**Total time spent: 1.5h**
