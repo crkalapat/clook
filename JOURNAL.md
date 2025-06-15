@@ -5,7 +5,7 @@ description: "A visual time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 11h**
+**Total time spent on project: 11.5h**
 
 ## June 4th: Start!
 
@@ -92,3 +92,15 @@ Here's what the schematic looked like after today's work:
 ![Schematic v0.2](assets/schem2.png)
 
 **Total time spent: 1.5h**
+
+## June 14: Small things
+
+Didn't get to do as much today (weekend), but I still got some minor stuff done.
+
+First off, I decided that I wanted to make this stopwatch resemble more of a mechanical stopwatch (example [here](https://www.marathonwatch.com/collections/mechanical-stopwatches/products/6-second-stopwatch-calibrated-yards)). So, I played around with the CAD and dimensions, and also looked for really tiny rotary encoders. It seems like I might have to make the watch thicker to account for rotary encoder on the "crown" of the stopwatch (most were at least 10mmx10mm), so we'll see how far I get with that.
+
+I also made a prototype crown that I could maybe attach to a 6mm rotary encoder.
+
+![Crown CAD](assets/crown.png)
+
+**Total time spent: 0.5h**
