@@ -5,7 +5,7 @@ description: "A visual time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 11.5h**
+**Total time spent on project: 12h**
 
 ## June 4th: Start!
 
@@ -93,14 +93,42 @@ Here's what the schematic looked like after today's work:
 
 **Total time spent: 1.5h**
 
-## June 14: Small things
+## June 14th: Small things
 
 Didn't get to do as much today (weekend), but I still got some minor stuff done.
 
 First off, I decided that I wanted to make this stopwatch resemble more of a mechanical stopwatch (example [here](https://www.marathonwatch.com/collections/mechanical-stopwatches/products/6-second-stopwatch-calibrated-yards)). So, I played around with the CAD and dimensions, and also looked for really tiny rotary encoders. It seems like I might have to make the watch thicker to account for rotary encoder on the "crown" of the stopwatch (most were at least 10mmx10mm), so we'll see how far I get with that.
 
+Other things:
+
+I redesigned the stopwatch face to look like this:
+
+*fyi it's all white so ignore the fact that you can't see the border*
+
+![New screen design](assets/screen3.png)
+
 I also made a prototype crown that I could maybe attach to a 6mm rotary encoder.
 
 ![Crown CAD](assets/crown.png)
+
+**Total time spent: 0.5h**
+
+## June 15th: Screw all of that
+
+If there was ever a "Come to Jesus moment" for the project, today definitely is it. In order to set the stage, I spent a little bit of time on and off working on the project today. I tried to fit a rotary encoder on the top of Clook, but it ended up looking like this:
+
+![Clipped Clook](assets/clipping.png)
+
+Not good. What's also not good is that most rotary encoders are around that thickness, if not thicker. This means that Clook would end up having to be some ridculous thickness like 22mm or somewhere around that for this whole thing to world. And don't even get me started on how I would mount the encoder, let alone connect it to the PCB.
+
+All of this led to one question - *Why?* Why did I have to make this look this way? Why do I have to make a thick, plastic, mechanical looking stopwatch?
+
+I pondered this while I showered. Then, after looking at clocks like [this](https://us.braun-clocks.com/cdn/shop/products/42253a33-ad67-4403-a109-1f2750d314ed_1200x1200.jpg?v=1696328508) I realized that I wasn't making a stopwatch. I was making *Clook*. The literal premise at the top of the README (at least since now) has been "a visual time tracker". Notably it does not say "a sleek stopwatch."
+
+I finished showering, and just jotted around ideas playfully in my notebook. I quickly reached a new design candidate, inspired by retro gaming consoles like the Gameboy. After all, Clook sounds playful, and I think the new design reflects that. It's also a lot more flexible and easier to work with...
+
+![Clook Sketches](assets/brainstorm.png)
+
+*If it wasn't obvious, the new design is at the bottom right*
 
 **Total time spent: 0.5h**
