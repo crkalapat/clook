@@ -132,3 +132,21 @@ I finished showering, and just jotted around ideas playfully in my notebook. I q
 *If it wasn't obvious, the new design is at the bottom right*
 
 **Total time spent: 0.5h**
+
+## June 16th: Shopping for a Redesign
+
+Was a slower day, but I did a few important things today. First, I decided on a pill shaped footprint for Clook. I also found some new candidates (again...) for parts.
+
+First up - the battery. Because I no longer have to deal with a circle, I can get a bigger battery that will fit better. I ended up going for this [1500 mAh battery](https://www.amazon.com/Qimoo-Battery-Rechargeable-Connector-Electronic/dp/B0CNLPZHKW?cv_ct_cx=lipo+battery+3.7v+1100+mAh&sbo=RZvfv//HxDF+O5021pAnSA%3D%3D&sr=1-1-6024b2a3-78e4-4fed-8fed-e1613be3bcce-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM) that I found on Amazon. Compared to the last battery, it fits the enclosure so much better.
+
+Next up - the display. I've decided once again to switch to an OLED, because of its better power efficiency with dark UIs compared to LCDs. [This OLED](https://www.mouser.com/ProductDetail/Newhaven-Display/NHD-1.8-160128UBC3?qs=2wMNvWM5ZX7EWoZh6grmVQ%3D%3D) is big enough, and it also conveniently has screw holes for mounting (solving a problem before it even happens!).
+
+Finally, I made a rough mockup to see how everything would fit in CAD. Check it out below!
+
+![CAD mockup](assets/design1.png)
+
+**Total time spent: 0.5h**
+
+
+
+
