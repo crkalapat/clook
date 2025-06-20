@@ -5,7 +5,7 @@ description: "A visual time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 13.25h**
+**Total time spent on project: 14.75h**
 
 ## June 4th: Start!
 
@@ -158,3 +158,21 @@ The one thing that I think the schematic needs now is a TP4056. The remainder of
 ![Updated schematic](assets/schem3.png)
 
 **Total time spent: 0.75h**
+
+## June 20th: Charging Up the Schematic
+
+It's been about 2 days, and since then, I have been pondering the TP4056. It would be nice to use, but unfortunately, the devil is always in the details.
+
+First, (the big dealbreaker): I can't use Clook while it's charging with the TP4056. This is because it lacks Power Path Management, or basically the ability to dynamically charge and power the device at the same time.
+
+Secondly, I've heard about fake TP4056's being sold online, with cheaper replacement ICs after more digging. Power is very important to this whole project, so I don't want to take risks anymore with the AliExpress page suspiciously blurring the markings on what should be the TP4056 chip.\
+
+Finally, the module wouldn't fit that well into the case. Also, the LED placement would be very awkward for charging indication.
+
+The solution - [BQ24074RGTR](https://www.mouser.com/ProductDetail/Texas-Instruments/BQ24074RGTR?qs=ZV/xhq4oszp2Nll7fIx5wg%3D%3D) from Texas Instruments. Main reason why I chose it was because it has Power Path Management, so Clook can run and track time while plugged in on a desk for example.
+
+Did a bunch of reading into the datasheet, and I have now updated my schematic to include battery charging (hopefully)!
+
+![Updated schematic](assets/schem4.png)
+
+**Total time spent: 1.5h**
