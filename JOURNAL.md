@@ -5,7 +5,7 @@ description: "A visual time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 12h**
+**Total time spent on project: 13.25h**
 
 ## June 4th: Start!
 
@@ -147,6 +147,14 @@ Finally, I made a rough mockup to see how everything would fit in CAD. Check it 
 
 **Total time spent: 0.5h**
 
+## June 18th: Schematic and Charging
 
+Today, I focused my attention on the schematic. Because I am no longer using that old LCD display, I can ditch the voltage regulators (minus the 3.3V one) that were needed to power it, since the OLED I found can take 3.3V, along with the XIAO. 
 
+I added the new display to the schematic, which was a lot easier than the last one due to a better and clearer datasheet (and only one voltage input source).
 
+The one thing that I think the schematic needs now is a TP4056. The remainder of the time I spent on the project was focused on learning about how the module works (since it has everything already integrated into it), and whether it would be a viable choice (which I think it will be). Shopped around a little bit, and [this](https://www.aliexpress.us/item/3256805951432581.html?utparam-url=scene:search%7Cquery_from:pc_back_same_best&algo_pvid=fae49043-474c-4025-92fb-6a591d335cf3&algo_exp_id=fae49043-474c-4025-92fb-6a591d335cf3&pdp_ext_f=%7B%22order%22:%221312%22%7D&pdp_npi=4@dis!USD!1.72!1.52!!!12.26!10.83!@2103273e17502938795214583e2271!12000037875684558!sea!US!0!ABX&gatewayAdapt=4itemAdapt) TP4056 model from AliExpress seems to be promising.
+
+![Updated schematic](assets/schem3.png)
+
+**Total time spent: 0.75h**
