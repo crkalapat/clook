@@ -176,3 +176,17 @@ Did a bunch of reading into the datasheet, and I have now updated my schematic t
 ![Updated schematic](assets/schem4.png)
 
 **Total time spent: 1.5h**
+
+## June 21st: BOM Begins!
+
+Today, I added a couple of the final touches on the schematic with the addition of 4 buttons (marked as push switches). We ran out of GPIO on the XIAO now, but we can get more if we use the Plus board if we need.
+
+![Updated schematic](assets/schem5.png)
+
+After that, I primarily worked on developing the BOM, just so I can get a current sense of how much this whole thing will cost me. THe price of all the components (not the PCB, or PCBA) is looking to be around $60, which gives me confidence that the project will be under $150.
+
+I'm currently trying to get as much stuff on the PCB as possible from LCSC, so that PCBA with JLCPCB works nicely. However, if that gets too expensive, I'll probably have to switch to DigiKey or Mouser for PCB components.
+
+Here's what the BOM looks like (not adding it to the repo yet because I don't want to have to download and upload a updated version every time I modify it).
+
+![Rough BOM](assets/bom1.png)
