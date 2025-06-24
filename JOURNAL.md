@@ -5,7 +5,7 @@ description: "A portable time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 18.75h**
+**Total time spent on project: 21.75h**
 
 ## June 4th: Start!
 
@@ -204,3 +204,17 @@ The only thing I am pondering is adding a Linear Resonance Actuator (LRA) or som
 ![First PCB Draft](assets/pcb1.png)
 
 **Total time spent: 4h**
+
+## June 24th: Ready to Rumble!
+
+I added the LRA/vibration motor today. Also had to add another TI IC, the DRV2605LDGS, in order to be able to control it. With that addition, I'm practically out of GPIO spots on the XIAO, so the schematic is basically done now. I don't really know what else to add at the moment also.
+
+So I started (for real) to work on the PCB. Turns out that working with curves is very annoying (since my enclosure is rounded a lot). This resulted in a little bit of fun placing components (not precisely though) and me beginning to route. 
+
+It's all starting to come together.
+
+![Schematic](assets/schem7.png)
+
+![Second revision PCB](assets/pcb2.png)
+
+**Total time spent: 3h**
