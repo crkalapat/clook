@@ -1,11 +1,11 @@
 ---
 title: "Clook"
 author: "crkalapat"
-description: "A visual time tracker"
+description: "A portable time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 14.75h**
+**Total time spent on project: 18.75h**
 
 ## June 4th: Start!
 
@@ -190,3 +190,17 @@ I'm currently trying to get as much stuff on the PCB as possible from LCSC, so t
 Here's what the BOM looks like (not adding it to the repo yet because I don't want to have to download and upload a updated version every time I modify it).
 
 ![Rough BOM](assets/bom1.png)
+
+## June 23rd: Schematic (Basically) Done
+
+Got a lot done today. First off, I added an ambient light sensor to the schematic, along with the XIAO nRF52840 Sense Plus to accomodate the extra GPIO. I added an extra button, to act as a pause/play for the stopwatch mechanism of Clook (and stop if you hold it). I even consolidated the two LEDs for charging status into one.
+
+To add on top, I went and found footprints for everything. So, now I have a (very very) rough draft of the PCB. You can see it and the current schematic at the end.
+
+The only thing I am pondering is adding a Linear Resonance Actuator (LRA) or some sort of device that can achieve vibrations, so you can know whether Clook is running low on battery for example while it's in your pocket, or whether you canceled the tracking for a task.
+
+![Better schematic](assets/schem6.png)
+
+![First PCB Draft](assets/pcb1.png)
+
+**Total time spent: 4h**
