@@ -5,7 +5,7 @@ description: "A portable time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 21.75h**
+**Total time spent on project: 23h**
 
 ## June 4th: Start!
 
@@ -217,4 +217,9 @@ It's all starting to come together.
 
 ![Second revision PCB](assets/pcb2.png)
 
-**Total time spent: 3h**
+Took a break, but I got back at it. This time though, I focused on the CAD just so I could know with certainty where things like the buttons should go on the PCB. As you can see, I played a fair bit with the placement, and even started to experiment with rendering in Autodesk Fusion (360). Still undecided on the coloring for the buttons but I prefer the vertical layout.
+
+![First render](assets/render1.png)
+![CAD design](assets/cad1.png)
+
+**Total time spent: 4.25h**
