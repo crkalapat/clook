@@ -223,3 +223,15 @@ Took a break, but I got back at it. This time though, I focused on the CAD just 
 ![CAD design](assets/cad1.png)
 
 **Total time spent: 4.25h**
+
+## June 26th: PCB Routing
+
+Exactly what the title says. I literally spent hours trying to route signals from all over the board to the XIAO, fixing the board shape, getting smaller buttons, figuring out where to put the battery connector (and the (vibration motor)[https://www.digikey.com/en/products/detail/vybronics-inc/VG1040003D/10285886]), and more. All while trying to get Design Rule Checker down to 0 errors from 30 intially.
+
+Loads of vias later, I routed everything, and I'm pretty proud of the PCB. I think it is very close to being finished, but I'll have to see how it fits in CAD before calling it done.
+
+![PCB Design](assets/pcbd1.png)
+
+![PCB Render](assets/pcb3.png)
+
+**Total time spent: 3h**
