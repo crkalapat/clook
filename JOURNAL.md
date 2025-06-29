@@ -5,7 +5,7 @@ description: "A portable time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 23h**
+**Total time spent on project: 25h**
 
 ## June 4th: Start!
 
@@ -235,3 +235,15 @@ Loads of vias later, I routed everything, and I'm pretty proud of the PCB. I thi
 ![PCB Render](assets/pcb3.png)
 
 **Total time spent: 3h**
+
+## June 27th: Integration
+
+Did some more PCB polishing today, with a main focus on the look of the board. I just learned of how easy it is to use custom images on silkscreen in KiCad, so I played around with the idea of adding a QR Code to my GitHub account on the back of the board. Aside from that though, I finally faced my fears and imported the full PCB STEP file into the CAD, and realized how much tweaking and re-importing I would have to do.
+
+Because of this, I realized that I still needed screw holes in the PCB for the display, my PCB corners were too rounded, and the connector hole was overlapping with the battery. Not great.
+
+Eventually though I pushed through and now the PCB design looks like this:
+
+![Updated PCB schematic](assets/pcbd2.png)
+
+**Total time spent: 2h**
