@@ -254,4 +254,8 @@ Kept going at integrating the PCB into CAD. This time though, I especially focus
 
 ![USB Port](assets/usb1.png)
 
+Also whipped up this simple UI to decal the screen in CAD. Matches the NHD OLED display pixel for pixel.
+
+![Rough UI](assets/ui1.png)
+
 **Total time spent: 1.5h**
