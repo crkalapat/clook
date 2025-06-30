@@ -5,7 +5,7 @@ description: "A portable time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 25h**
+**Total time spent on project: 26.5h**
 
 ## June 4th: Start!
 
@@ -247,3 +247,11 @@ Eventually though I pushed through and now the PCB design looks like this:
 ![Updated PCB schematic](assets/pcbd2.png)
 
 **Total time spent: 2h**
+
+## June 29th: Charging Port
+
+Kept going at integrating the PCB into CAD. This time though, I especially focused on the placement of the charging port. Originally, when I first imported the PCB, it was positioned more towards the top. However, after finding a [new battery](https://www.amazon.com/Rechargeable-Integrated-Protection-Development-Electronic/dp/B0DSMRNHSP?sr=8-6) that is thinner online, I have managed to get the USB C charging port that I made a cutout for today to be more vertically centered. See for yourself.
+
+![USB Port](assets/usb1.png)
+
+**Total time spent: 1.5h**
