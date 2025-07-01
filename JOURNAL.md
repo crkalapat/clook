@@ -5,7 +5,7 @@ description: "A portable time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 26.5h**
+**Total time spent on project: 27h**
 
 ## June 4th: Start!
 
@@ -259,3 +259,13 @@ Also whipped up this simple UI to decal the screen in CAD. Matches the NHD OLED 
 ![Rough UI](assets/ui1.png)
 
 **Total time spent: 1.5h**
+
+## June 30th: Problem Solving
+
+Didn't do too much today, but I did a bit of research into threaded inserts and how I could use them to put together this whole thing. It might not work though because the battery is just slightly too big in one dimension (see the rightmost holes in the CAD below). Other than that, I played a little bit with rendering again and colors in Fusion to avoid bigger problems for now.
+
+![Clook Bottom Case with holes](assets/case1.png)
+
+![Clook Render with Red and Yellow Buttons](assets/render2.png)
+
+**Total time spent: 0.5h**
