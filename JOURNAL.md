@@ -5,7 +5,7 @@ description: "A portable time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 27h**
+**Total time spent on project: 30h**
 
 ## June 4th: Start!
 
@@ -269,3 +269,21 @@ Didn't do too much today, but I did a bit of research into threaded inserts and 
 ![Clook Render with Red and Yellow Buttons](assets/render2.png)
 
 **Total time spent: 0.5h**
+
+## July 1st: Tweaking
+
+Couple of things that I did today.
+
+First, I decided that I actually want to use [this battery](https://www.amazon.com/1500mAh-504050-Battery-Rechargeable-Connector/dp/B09GFQY6ZR) because it has a better connector, and it is already compatible with the JST connector in my PCB.
+
+Second, I shifted things around in the PCB so that they would "work" in the CAD. This includes the battery cable hole, the ambient light sensor, and the XIAO. Now, nothing should not fit whenever assembling or programming Clook. 
+
+Also added in the Vybronics LRA motor today (with a large circle) in both the PCB and CAD.
+
+You can see the updates visually below.
+
+![Modified PCB design](assets/pcbd3.png)
+
+![Transparent View of CAD](assets/cad2.png)
+
+**Total time spent: 3h**
