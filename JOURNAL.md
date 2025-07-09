@@ -5,7 +5,7 @@ description: "A portable time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 30h**
+**Total time spent on project: 31.25h**
 
 ## June 4th: Start!
 
@@ -287,3 +287,15 @@ You can see the updates visually below.
 ![Transparent View of CAD](assets/cad2.png)
 
 **Total time spent: 3h**
+
+## July 7th: CAD'ding Part 2
+
+I really didn't like the placement of the hole for the ambient light sensor. Tried moving it around to different places in the PCB, but I figured that using the built in screw hole on the display module actually resulted in the best placement. Also made a slight divot in the lid so that the screen can fit in there (without clipping anymore).
+
+Side note: every time I make changes I have to reimport the STEP file into OnShape. Unsure if there's a better way to do this, but that's currently what I do. As a result, I have to delete the old PCB and replace it with the new one. This messes up some of my OnShape sketches, and basically resulted in me accidentally getting rid of the heatset insert holes/stands that I made in CAD earlier. Forgot when this happened but it isn't in the CAD anymore (not yet).
+
+![Updated CAD](assets/cad3.png)
+
+![Lid divot for Clook](assets/lid.png)
+
+**Total time spent: 1.25h**
