@@ -5,7 +5,7 @@ description: "A portable time tracker"
 created_at: "2025-06-04"
 ---
 
-**Total time spent on project: 31.25h**
+**Total time spent on project: 33.75h**
 
 ## June 4th: Start!
 
@@ -299,3 +299,19 @@ Side note: every time I make changes I have to reimport the STEP file into OnSha
 ![Lid divot for Clook](assets/lid.png)
 
 **Total time spent: 1.25h**
+
+## July 9th: Assembling
+
+Researched a bit on how D-Pads actually work, turns out they don't even use buttons most of the time (silicon with special conductive material acts as a switch). Also did some quality of life things across the board to make the CAD better. These include:
+
+- Fixing the bad button CAD and making my own one based off the datasheet
+- Finding a slim socket header from LCSC and making my own one based off the datasheet
+- Adding standoffs to the CAD, and small indents for screws or nuts on the case lid
+
+CAD'ding from datasheets where they don't give you all the numbers is not that fun.
+
+![CAD Assembly with Lid Removed](assets/cad4.png)
+
+![Socket Header CAD](assets/socket.png)
+
+**Total time spent: 2.5h**
